@@ -19,6 +19,13 @@ public class EntryPoint {
         System.out.println("-----------------------");
         dolarRate.removeObserver(1);
         dolarRate.notifyObservers();
+        
+        System.out.println(20%20);
+        System.out.println(20%21);
+
+        System.out.println(20%19);
+        System.out.println(40%20);
+
     }
 
 }
